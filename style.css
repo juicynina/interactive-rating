@@ -44,7 +44,7 @@ body {
     justify-content: space-between;
 }
 
-.rating-container #ratings .number {
+.rating-container #ratings span {
     border-radius: 50%;
     padding: 1.3rem;
     margin-top: 8px;
@@ -88,4 +88,13 @@ body {
     color: var(--orange);
     padding: 0.5em ;
     border-radius: 1.5em;
+}
+
+footer {
+    color: var(--light-grey);
+}
+
+footer a {
+    color: var(--light-grey);
+    text-decoration: none;
 }
