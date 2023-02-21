@@ -30,12 +30,14 @@ body {
 }
 
 .rating-container h1 {
-    font-size: 28px;
+    font-size: 1.8rem;
+    font-weight: 300;
 }
 
 .rating-container p {
     color: var(--medium-grey);
     font-size: 15px;
+    line-height: 1.5em;
 }
 
 .rating-container #ratings {
@@ -46,9 +48,9 @@ body {
 
 .rating-container #ratings span {
     border-radius: 50%;
-    padding: 1.3rem;
-    margin-top: 8px;
-    margin-bottom: 8px;
+    padding: 1.2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
     border: none;
     background-color: var(--dark-blue);
     color: var(--medium-grey);
@@ -78,11 +80,16 @@ body {
 }
 
 .thankyou-container h1 {
-    font-size: 28px;
+    font-size: 1.8rem;
+    font-weight: 300;
 }
 
 .thankyou-container img {
     width: 35%;
+}
+
+.display-none {
+	display: none;
 }
 
 #selection {
@@ -94,6 +101,7 @@ body {
 
 footer {
     color: var(--light-grey);
+    margin-top: 4rem;
 }
 
 footer a {
