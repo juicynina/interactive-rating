@@ -52,6 +52,7 @@ body {
     border: none;
     background-color: var(--dark-blue);
     color: var(--medium-grey);
+    cursor: pointer;
 }
 
 .btn-submit input {
@@ -61,6 +62,7 @@ body {
     margin-top: 16px;
     color: var(--white);
     padding: 16px 135px;
+    cursor: pointer;
 }
 
 .thankyou-container p {
