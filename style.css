@@ -57,6 +57,12 @@ body {
     cursor: pointer;
 }
 
+.rating-container #ratings span:hover {
+    background-color: var(--light-grey);
+    color: var(--white);
+    transition: 2s;
+}
+
 .btn-submit input {
     background-color: var(--orange);
     border: none;
@@ -65,6 +71,11 @@ body {
     color: var(--white);
     padding: 16px 135px;
     cursor: pointer;
+}
+
+.btn-submit input:hover {
+    background-color: var(--white);
+    color: var(--orange);
 }
 
 .thankyou-container p {
